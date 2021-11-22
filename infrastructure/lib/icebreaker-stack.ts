@@ -15,7 +15,7 @@ export class IcebreakerRobotStack extends cdk.Stack {
         })
       }),
     });
-    const masterBranch = amplifyApp.addBranch("master");
+    const masterBranch = amplifyApp.addBranch("main");
 
   }
 }
